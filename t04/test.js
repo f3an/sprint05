@@ -12,13 +12,13 @@ function test(str) {
         console.log(`Letter ${k} is repeated ${v} times`);
     }
 
-    // console.log(`Words in ${str}`);
-    // for (const [k, v] of Object.entries(sf.wordFrequencies())) {
-    //     console.log(`Word ${k} is repeated ${v} times`);
-    // }
+    console.log(`Words in ${str}`);
+    for (const [k, v] of Object.entries(sf.wordFrequencies())) {
+        console.log(`Word ${k} is repeated ${v} times`);
+    }
 
-    // console.log(`Reverse of the string: ${str}`);
-    // console.log(`${sf.reverseString()}`);
+    console.log(`Reverse of the string: ${str}`);
+    console.log(`${sf.reverseString()}`);
 }
 
 test("Face it, Harley-- you and your Puddin' are kaput!");
